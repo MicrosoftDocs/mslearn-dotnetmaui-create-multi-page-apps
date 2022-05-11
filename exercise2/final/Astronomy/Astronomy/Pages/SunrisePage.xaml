@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astronomy.Pages.SunrisePage"
+             Title="SunrisePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="10">
+        <Label x:Name="lblDate" WidthRequest="200" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+        <ActivityIndicator x:Name="activityWaiting" IsRunning="False" Color="Orange" />
+        <Grid  RowSpacing="10" ColumnSpacing="5" Padding="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="🌅" FontSize="72" Grid.Column="0" />
+            <Label Text="☀️" FontSize="72" Grid.Column="1" />
+            <Label Text="🌇" FontSize="72" Grid.Column="2" />
+
+            <Label Text="Sunrise" FontAttributes="Bold" Grid.Column="0" Grid.Row="1" />
+            <Label Text="Daylight" FontAttributes="Bold" Grid.Column="1" Grid.Row="1" />
+            <Label Text="Sunset" FontAttributes="Bold" Grid.Column="2" Grid.Row="1" />
+
+            <Label x:Name="lblSunrise" WidthRequest="100" FontAttributes="None" Grid.Column="0" Grid.Row="2" HorizontalTextAlignment="Center" />
+            <Label x:Name="lblDaylight" WidthRequest="150" FontAttributes="None" Grid.Column="1" Grid.Row="2" HorizontalTextAlignment="Center" />
+            <Label x:Name="lblSunset" WidthRequest="100" FontAttributes="None" Grid.Column="2" Grid.Row="2" HorizontalTextAlignment="Center" />
+        </Grid>
+    </StackLayout>
+</ContentPage>
