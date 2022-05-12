@@ -49,14 +49,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Pages\AstronomicalBodiesPage.xaml.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Remove="Pages\AstronomicalBodiesPage.xaml" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <None Remove="Resources\Images\comet.png" />
 	  <None Remove="Resources\Images\moon.png" />
 	  <None Remove="Resources\Images\question.png" />
@@ -65,10 +57,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\AstronomicalBodiesPage.xaml.cs">
+	    <DependentUpon>AstronomicalBodiesPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Pages\AboutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\AstronomicalBodies.xaml">
+	  <MauiXaml Update="Pages\AstronomicalBodiesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\AstronomicalBodyPage.xaml">

@@ -12,6 +12,10 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IconOverride="comet.png"/>
+    </Shell.BackButtonBehavior>
+
     <Grid RowSpacing="10" ColumnSpacing="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />

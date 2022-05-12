@@ -2,9 +2,11 @@ namespace Astronomy.Pages;
 
 public partial class AstronomicalBodyPage : ContentPage
 {
-    public AstronomicalBodyPage(AstronomicalBody body)
+    public AstronomicalBodyPage()
     {
         InitializeComponent();
+
+        AstronomicalBody body = SolarSystemData.Earth;
 
         Title = body.Name;
 

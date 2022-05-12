@@ -3,7 +3,7 @@
     x:Class="Astronomy.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Astronomy.Pages"
+    xmlns:local="clr-namespace:Astronomy.Pages"    
     FlyoutIcon="moon.png">
 
     <Shell.FlyoutHeader>
@@ -18,7 +18,7 @@
         <ShellContent Title="Daylight" Icon="sun.png"
             ContentTemplate="{DataTemplate local:SunrisePage}" />
         <ShellContent Title="Bodies" Icon="comet.png"
-            ContentTemplate="{DataTemplate local:AstronomicalBodies}"/>
+            ContentTemplate="{DataTemplate local:AstronomicalBodiesPage}"/>
     </FlyoutItem>
 
     <FlyoutItem Title="About" Icon="question.png">
