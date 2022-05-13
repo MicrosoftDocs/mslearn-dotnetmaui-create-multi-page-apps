@@ -5,5 +5,6 @@ public partial class AstronomicalBodiesPage : ContentPage
 	public AstronomicalBodiesPage()
 	{
 		InitializeComponent();
+
     }
 }
