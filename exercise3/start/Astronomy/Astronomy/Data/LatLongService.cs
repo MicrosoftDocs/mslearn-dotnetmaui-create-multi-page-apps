@@ -11,9 +11,16 @@
             if (status == PermissionStatus.Granted)
             {
                 var request = new GeolocationRequest(GeolocationAccuracy.Default, TimeSpan.FromSeconds(10));
-                var location = await Geolocation.GetLocationAsync(request);
-                latLoc = location.Latitude;
-                longLoc = location.Longitude;
+                try
+                {
+                    var location = await Geolocation.GetLocationAsync(request);
+                    latLoc = location.Latitude;
+                    longLoc = location.Longitude;
+                } catch (FeatureNotEnabledException)
+                {
+                    // TODO: Implement a way to inform user for enabling the location service in their device's settings
+                }
+
             }
             return (latLoc, longLoc);
         }
