@@ -10,7 +10,12 @@
             <Image Source="moon.png"/>
         </Grid>
     </Shell.FlyoutHeader>
-    
+
+    <FlyoutItem Title="Author" Icon="dotnet_bot.svg">
+        <ShellContent
+            ContentTemplate="{DataTemplate local:AuthorPage}"/>
+    </FlyoutItem>
+
     <FlyoutItem Title="Astronomy" Icon="moon.png">
         <ShellContent Title="Moon" Icon="moon.png"
                 ContentTemplate="{DataTemplate local:MoonPhasePage}" />

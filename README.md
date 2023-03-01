@@ -37,3 +37,11 @@ We can now see that the application is using an *Astronomy* page. Opening it sho
 
 We can see the two tab at the bottom of the screen. Clicking on the "Sunrise" tab should display the following:
 ![Exercise 2](img/ex2/sunrise.jpg)
+
+Clicking on the "About" page should still display the following:
+![Exercise 2](img/ex2/about.jpg)
+
+### Exercise n°3
+The instruction can be found [here](https://learn.microsoft.com/en-us/training/modules/create-multi-page-apps/7-exercise-use-tabbed-pages-with-navigation-pages).
+
+Open the solution at `exercise3/start/Astronomy/Astronomy.sln` and run the application. The application should look like this:
