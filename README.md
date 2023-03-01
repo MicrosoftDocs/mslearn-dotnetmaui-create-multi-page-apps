@@ -22,3 +22,18 @@ Upon clicking on the "moon phase" button, the application should display the fol
 Clicking instead on the "Sunrise" or "About" button should display one of the following:
 ![Exercise 1](img/ex1/sunrise.jpg)
 ![Exercise 1](img/ex1/about.jpg)
+
+### Exercise n°2
+The instruction can be found [here](https://learn.microsoft.com/en-us/training/modules/create-multi-page-apps/5-exercise-implement-tab-navigation).
+
+Open the solution at `exercise2/start/Astronomy/Astronomy.sln` and run the application. The application should look like this:
+![Exercise 2](img/ex2/author.jpg)
+
+When clicking on the moon button at the top-left corner, the application should display the following:
+![Exercise 2](img/ex2/flyout.jpg)
+
+We can now see that the application is using an *Astronomy* page. Opening it should look like this:
+![Exercise 2](img/ex2/moon.jpg)
+
+We can see the two tab at the bottom of the screen. Clicking on the "Sunrise" tab should display the following:
+![Exercise 2](img/ex2/sunrise.jpg)
