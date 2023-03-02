@@ -45,3 +45,38 @@ Clicking on the "About" page should still display the following:
 The instruction can be found [here](https://learn.microsoft.com/en-us/training/modules/create-multi-page-apps/7-exercise-use-tabbed-pages-with-navigation-pages).
 
 Open the solution at `exercise3/start/Astronomy/Astronomy.sln` and run the application. The application should look like this:
+![Exercise 3](img/ex3/author.jpg)
+
+When clicking on the moon button at the top-left corner, the application should display the following:
+![Exercise 3](img/ex3/flyout.jpg)
+
+We can now see that the application is using an *Astronomy* page. Opening it should look like this:
+![Exercise 3](img/ex3/moonphase.jpg)
+
+We can see the three tab at the bottom of the screen. Clicking on the "Sunrise" tab should display the following:
+![Exercise 3](img/ex3/sunrise.jpg)
+
+Finally, clicking on the "Bodies" tab should display the following:
+![Exercise 3](img/ex3/bodies.jpg)
+
+We can now see 4 buttons with each a celestial body. Clicking on one of them will display information about the body. For example, clicking on the "Earth" button should display the following:
+![Exercise 3](img/ex3/earth.jpg)
+
+Hitting the return button of your phone will get you back to the bodies page.
+
+Here are the other pages:
+![Exercise 3](img/ex3/moon.jpg)
+![Exercise 3](img/ex3/sun.jpg)
+![Exercise 3](img/ex3/comet.jpg)
+
+As per the other exercise, the "About" page should still display the following:
+![Exercise 3](img/ex3/about.jpg)
+
+## Conclusion
+This assignment was a good introduction to the MAUI framework. It was a good way to learn how to use the framework and how to create a multi-page application. The assignment was also a good way to learn how to create a basic interface using the MAUI framework.
+
+I have now learn how to :
+- Create an application using the MAUI framework
+- Use the flyout menu
+- Use the tabbed page
+- Root our application in a navigation page

@@ -20,7 +20,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             FontAttributes="Italic"
-            FontSize="Medium"
+            FontSize="Small"
             />
     </VerticalStackLayout>
 </ContentPage>
