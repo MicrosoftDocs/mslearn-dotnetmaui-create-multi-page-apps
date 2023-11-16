@@ -28,7 +28,7 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Need the location to display sunrise and sunset times</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to properly display sunrise info</string>
 </dict>
 </plist>

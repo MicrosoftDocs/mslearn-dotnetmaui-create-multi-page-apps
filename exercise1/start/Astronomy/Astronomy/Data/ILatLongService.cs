@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Astronomy;
 
-namespace Astronomy
+public interface ILatLongService
 {
-    public interface ILatLongService
-    {
-        Task<(double Latitude, double Longitude)> GetLatLong();
-    }
+    Task<(double Latitude, double Longitude)> GetLatLong();
 }
